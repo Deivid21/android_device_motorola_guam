@@ -25,10 +25,10 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.bengal
 
-# Moto Camera 3
-TARGET_MOTCAMERA3 := guam
+# Moto Camera 2
+TARGET_MOTCAMERA2 := whitney
 
-$(call inherit-product, vendor/motorola/MotCamera3/motcamera3.mk)
+$(call inherit-product, vendor/motorola/MotCamera2/motcamera2.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
