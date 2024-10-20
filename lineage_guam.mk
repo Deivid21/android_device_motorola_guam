@@ -19,10 +19,10 @@ PRODUCT_DEVICE := guam
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto e7 plus
 PRODUCT_MANUFACTURER := motorola
+
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-BUILD_FINGERPRINT := "motorola/guam_retail/guam:10/QPZS30.30-Q3-38-69-12/916393:user/release-keys"
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=guam_retail \
-    PRIVATE_BUILD_DESC="guam_retail-user 10 QPZS30.30-Q3-38-69-12 916393 release-keys"
+    BuildDesc="guam_retail-user 10 QPZS30.30-Q3-38-69-12 916393 release-keys" \
+    BuildFingerprint=motorola/guam_retail/guam:10/QPZS30.30-Q3-38-69-12/916393:user/release-keys \
+    DeviceProduct=guam_retail
