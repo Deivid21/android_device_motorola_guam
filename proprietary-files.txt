@@ -133,7 +133,7 @@ vendor/lib64/libopencv.so|3290c7e4b89dbcd895d20b1c56313e5f2ec31d34
 vendor/lib64/libopestriping.so|3b4a1d66e5d4b2225916af249652c26801f09aee
 vendor/lib64/libswregistrationalgo.so|a647844c7fbab585cc5678247a79ef59bdfaf034
 vendor/lib64/libtfestriping.so|2df838e6faa75b6223ced5ab7e58368e2132c1f8
-vendor/lib64/libvidhance.so|78f06bc683c17aeb6e186588e8051e808f596c2e|77ac9b08523a82dd590a035270c3179aae3b1992
+vendor/lib64/libvidhance.so|78f06bc683c17aeb6e186588e8051e808f596c2e|b58c6f0af6939b3e62759ce1ef7a653580249f69
 
 # Camera configs
 vendor/etc/camera/dual_golden_depth.bin
