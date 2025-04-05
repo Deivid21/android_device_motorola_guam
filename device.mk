@@ -31,7 +31,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.bengal
+    android.hardware.light-service.lineage
 
 # Moto Camera 2
 TARGET_MOTCAMERA2 := whitney
