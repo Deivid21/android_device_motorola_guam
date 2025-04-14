@@ -23,6 +23,10 @@ ODM_MANIFEST_F_FILES := $(DEVICE_PATH)/sku/manifest_f.xml
 BOARD_BOOT_HEADER_VERSION := 2
 TARGET_KERNEL_CONFIG += vendor/ext_config/guam-default.config
 
+# Kernel Modules - Audio
+TARGET_MODULE_ALIASES += \
+    fs16xx_dlkm.ko:audio_snd_soc_fs16xx.ko
+
 # Kernel Modules - Recovery
 BOARD_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
 RECOVERY_KERNEL_MODULES := $(BOARD_RECOVERY_KERNEL_MODULES_LOAD)
