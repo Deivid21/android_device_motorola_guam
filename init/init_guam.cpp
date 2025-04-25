@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+#include <sys/sysinfo.h>
 #include <android-base/logging.h>
 #include <android-base/properties.h>
 
@@ -13,6 +14,7 @@
 
 using android::base::GetProperty;
 using android::base::SetProperty;
+using std::string;
 
 constexpr const char* RO_PROP_SOURCES[] = {
     nullptr,
@@ -40,6 +42,25 @@ void OverrideProperty(const char* name, const char* value) {
         __system_property_update(pi, value, valuelen);
     } else {
         __system_property_add(name, strlen(name), value, valuelen);
+    }
+}
+
+void property_override(string prop, string value) {
+    auto pi = (prop_info*) __system_property_find(prop.c_str());
+
+    if (pi != nullptr)
+        __system_property_update(pi, value.c_str(), value.size());
+    else
+        __system_property_add(prop.c_str(), prop.size(), value.c_str(), value.size());
+}
+
+void set_avoid_gfxaccel_config() {
+    struct sysinfo sys;
+    sysinfo(&sys);
+
+    if (sys.totalram <= 4096ull * 1024 * 1024) {
+        // Reduce memory footprint
+        property_override("ro.config.avoid_gfx_accel", "true");
     }
 }
 
@@ -71,5 +92,6 @@ void OverrideCarrierProperties() {
 }
 
 void vendor_load_properties() {
+    set_avoid_gfxaccel_config();
     OverrideCarrierProperties();
 }
