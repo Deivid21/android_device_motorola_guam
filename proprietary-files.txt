@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from guam_retail QPZS30.30-Q3-38-69-12
+# All unpinned blobs below are extracted from guam_retail QPZ30.30-Q3-38-69-14
 
 # ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
@@ -34,7 +34,7 @@ vendor/lib64/camera/com.qti.tuned.mot_guam_s5k3l6.bin
 vendor/lib64/camera/com.qti.tuned.mot_guam_s5k4h7.bin
 vendor/lib64/camera/com.qti.tuned.mot_guam_s5kgm1st.bin
 
-# Camera - from guamp_retail RPXS31.Q2-58-17-7-3
+# Camera - from guamp_retail RPX31.Q2-58-17-7-5
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|c184c5f28b792d17976d133b1f812d52fc11262d
 vendor/lib64/camera/components/com.qti.eisv2.so|e70a2ac7d546c8b426437314bcb55192745bdcd8
 vendor/lib64/camera/components/com.qti.eisv3.so|9fb740927ef2421351f83de20a09cfd11732f4b7
@@ -45,39 +45,39 @@ vendor/lib64/camera/components/com.qti.node.depth.so|99f376bb8ae16e1149edc4ca430
 vendor/lib64/camera/components/com.qti.node.dewarp.so|f89cbcc41c68db99ab0df0756313e59358354798
 vendor/lib64/camera/components/com.qti.node.dummyrtb.so|e4728d5ce575076206b9e96e71f30dcf8095bf30
 vendor/lib64/camera/components/com.qti.node.dummysat.so|1a811c36b889818dad15fe748e5d105f7e87a69d
-vendor/lib64/camera/components/com.qti.node.eisv2.so|5cef3065aa19dc574b7514d6f28f4424d31008b3
-vendor/lib64/camera/components/com.qti.node.eisv3.so|54199d2f5a864cd714d7fcda31541fdc3fe77553
+vendor/lib64/camera/components/com.qti.node.eisv2.so|3f3120a1714005ad347e80f5dcbe492dfdde39b2
+vendor/lib64/camera/components/com.qti.node.eisv3.so|d00767e8a5df3ee859e943df94c0f46c807091f8
 vendor/lib64/camera/components/com.qti.node.fcv.so|0f29fa85146312062bfa2a15a5b911368dfcbce6
 vendor/lib64/camera/components/com.qti.node.gpu.so|fe84cd2a7d0b166611822768cf0807bc31f893f7
 vendor/lib64/camera/components/com.qti.node.memcpy.so|27770e1024c054a6050d65b812215fe1e45df716
 vendor/lib64/camera/components/com.qti.node.remosaic.so|5a87af2b1e36c2d72316f5a922d9ae20baa609e7
 vendor/lib64/camera/components/com.qti.node.stich.so|2faa65cb7143148baa97b8381c50b609b46090dc
-vendor/lib64/camera/components/com.qti.node.swaidenoiser.so|32d8a30e5ef5ea81e45d3736a186b9dad105ff72
+vendor/lib64/camera/components/com.qti.node.swaidenoiser.so|600645babeb171c2955fffe05364f38e11f58c19
 vendor/lib64/camera/components/com.qti.node.swcac.so|622eb9d80c21c9d4fc17f5851c1fd3192308b6bd
-vendor/lib64/camera/components/com.qti.node.swlsc.so|6a2a76c99bbd3c636b6d9f8f5a14c1c12329dcbb
-vendor/lib64/camera/components/com.qti.node.swmctf.so|dbf3a307d019466148eb5c18bfde95de7b806934
-vendor/lib64/camera/components/com.qti.node.swmfnr.so|3c28a5888954ab490e2c229aaaddd3a42c70e914
+vendor/lib64/camera/components/com.qti.node.swlsc.so|297b390b78e00d61bec954a70e322a9212c18bdd
+vendor/lib64/camera/components/com.qti.node.swmctf.so|f50a3dce1422732b6b86931f959bd7c096ee688b
+vendor/lib64/camera/components/com.qti.node.swmfnr.so|39871f68646da1c1a6a1b5d7ff9e09539c7e2fc8
 vendor/lib64/camera/components/com.qti.node.swregistration.so|215b1f3f2752cab36e2d55539756a2d2f5aedd37
 vendor/lib64/camera/components/com.qti.stats.aec.so|e6d5b896209e75f0c1bc3b264c2ddfbc86e99add
-vendor/lib64/camera/components/com.qti.stats.aecwrapper.so|bf0b428f42b56d8138f2b381e82d8d400cf58506
+vendor/lib64/camera/components/com.qti.stats.aecwrapper.so|21672095688967a1a33d84ee6886e56b24235ad1
 vendor/lib64/camera/components/com.qti.stats.af.so|4ab6814a5b94089ab882cd0ecd24e90bbf1a5a4b
 vendor/lib64/camera/components/com.qti.stats.afd.so|43a3406244cee8ad2f362115aa6ba76bb94d5729
-vendor/lib64/camera/components/com.qti.stats.afwrapper.so|8f62a05b142dc6be03e181d76dbd6703a29cc0c6
+vendor/lib64/camera/components/com.qti.stats.afwrapper.so|a5cb481ec56e1f98cfa2424f47f8b36c7d1c5429
 vendor/lib64/camera/components/com.qti.stats.asd.so|07d7a62aeb2a5d1e1ccb7345fc64eabc9b4e1c67
 vendor/lib64/camera/components/com.qti.stats.awb.so|baa62ab670820bd702e4b8fc635ebe5f2f7fc99b
-vendor/lib64/camera/components/com.qti.stats.awbwrapper.so|d6de7cda2f24e597eed73f1510dc86c6573e4dfa
+vendor/lib64/camera/components/com.qti.stats.awbwrapper.so|479b315feb851cd12e04c352564f3acae019f4e3
 vendor/lib64/camera/components/com.qti.stats.haf.so|14820e7896d0034d113f5ed9894bf4bbfccd3a93
 vendor/lib64/camera/components/com.qti.stats.hafoverride.so|d9d5f15be76c485670c97776ea039da45ebc578e
 vendor/lib64/camera/components/com.qti.stats.pdlib.so|543b824451503ede19972fa1bb906bc2ae2aa248
 vendor/lib64/camera/components/com.qti.stats.pdlibsony.so|46fc89f590698cd8e3d3a11cc14c6fd6cbd1bd98
 vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so|c460533918bc21571a0ad99c5ebb4e9d933813c3
 vendor/lib64/camera/components/com.qti.stats.tracker.so|1205261b6513130a08a61fd5a79f1fc4637241d5
-vendor/lib64/camera/components/com.qtistatic.stats.aec.so|dfe101ee7b8fb0ced2b34503884df029fc7f2a7a
-vendor/lib64/camera/components/com.qtistatic.stats.af.so|c1010daa876c02422364e9b237ec2d3bc14bd956
-vendor/lib64/camera/components/com.qtistatic.stats.awb.so|22cc58519009c84348036f2bcecc1a6f5cc3bbef
-vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so|96c4e24a5f9b74c2c3429ae4b75753cdabbd3a11
+vendor/lib64/camera/components/com.qtistatic.stats.aec.so|8bb55442321716b186e8cbd3cdc1981c91dd1d76
+vendor/lib64/camera/components/com.qtistatic.stats.af.so|c861d2e3ee47412a984aa82d9e74e7e13883adfb
+vendor/lib64/camera/components/com.qtistatic.stats.awb.so|7b4aa9630ac7303497189774eb45f633908af83e
+vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so|790bf2948c9a50b6408cb87a4cc35dd9f8883713
 vendor/lib64/camera/components/com.vidhance.node.processing.so|8a8cc112be34d48f4547c86f3ed4b08d9453d065
-vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so|9013b2d0691ba2dccd55bc005072d17192c72244
+vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so|ddeaa402cc54a8680160b640da115d06352b625a
 vendor/lib64/camera/fdconfigpreview.bin|296e62a60a81aa7ba153e6d4fd4af34d1b2a4c8b
 vendor/lib64/camera/fdconfigpreviewlite.bin|296e62a60a81aa7ba153e6d4fd4af34d1b2a4c8b
 vendor/lib64/camera/fdconfigvideo.bin|296e62a60a81aa7ba153e6d4fd4af34d1b2a4c8b
@@ -98,7 +98,7 @@ vendor/lib64/com.qti.feature2.rt.so|093186ad02a943bc38579c57b678b15b3177ecb3|42a
 vendor/lib64/com.qti.feature2.serializer.so|88d839a93d93406f24e27e70d41a2d0f858581df
 vendor/lib64/com.qti.feature2.stub.so|621761ebb98c374ffcc715eba2e47382591f5155
 vendor/lib64/com.qti.feature2.swmf.so|6515c4bac39746842e8f134a9988ffd8fb7a17e9
-vendor/lib64/hw/camera.qcom.so|54982845ef6daef30fc9bfe2ce3b5493c9307c09|62a67ccf0150db848594ffde6adb429f51c71c2b
+vendor/lib64/hw/camera.qcom.so|3f370eea77987a147d9e17220b21ad815d0513ed|1f1402d5e0af8d0d72680f5c68a3fef99f7dfdda
 vendor/lib64/hw/com.qti.chi.override.so|b6d103bd1ea7755cdc2b02afe7b2c38839e8b405|f842f4d3c4991a1d8aebc012da132ea09d9825fa
 vendor/lib64/libbitmlengine.so|d863b89111ae6a0b83475704d5f20740dd7b1763
 vendor/lib64/libcamera_nn_stub.so|13d0b4012c263d2266c8a07a60cc6372acb978cc

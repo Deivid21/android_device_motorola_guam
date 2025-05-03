@@ -50,10 +50,10 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 43
 
 # Security patch level
 BOOT_SECURITY_PATCH := 2022-09-01
-VENDOR_SECURITY_PATCH := 2022-09-01
+VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
 # Verified Boot
-BOARD_AVB_ROLLBACK_INDEX := 20
+BOARD_AVB_ROLLBACK_INDEX := 19
 
 # Inherit from the proprietary version
 include vendor/motorola/guam/BoardConfigVendor.mk

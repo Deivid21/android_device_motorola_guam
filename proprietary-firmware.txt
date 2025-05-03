@@ -1,4 +1,4 @@
-# All firmware images below are extracted from guam_retail QPZS30.30-Q3-38-69-12
+# All firmware images below are extracted from the release mentioned in proprietary-files.txt
 
 abl.elf:abl.img;AB
 BTFM.bin:bluetooth.img;AB
