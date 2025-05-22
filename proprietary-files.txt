@@ -165,6 +165,9 @@ vendor/usr/keylayout/uinput_nav.kl
 # Graphics (Adreno firmware)
 vendor/firmware/a630_sqe.fw
 
+# OEM
+vendor/etc/vhw.xml
+
 # Sensors configs
 vendor/etc/sensors/config/bengal_default_sensors.json
 vendor/etc/sensors/config/bengal_dynamic_sensors.json
@@ -246,3 +249,6 @@ vendor/firmware/hlt_Himax_mpfw.bin:recovery/root/vendor/firmware/hlt_Himax_mpfw.
 vendor/firmware/hlt_hx_criteria.csv:recovery/root/vendor/firmware/hlt_hx_criteria.csv
 vendor/firmware/novatek_ts_fw.bin:recovery/root/vendor/firmware/novatek_ts_fw.bin
 vendor/firmware/novatek_ts_mp.bin:recovery/root/vendor/firmware/novatek_ts_mp.bin
+
+# WiFi
+vendor/bin/cnss-daemon
